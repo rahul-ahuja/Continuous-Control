@@ -22,3 +22,10 @@ The barrier for solving the second version of the environment is slightly differ
 After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
 This yields an average score for each episode (where the average is over all 20 agents).
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
+
+The below are the instructions to install dependencies;
+```
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
