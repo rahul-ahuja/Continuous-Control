@@ -29,3 +29,9 @@ git clone https://github.com/udacity/deep-reinforcement-learning.git
 cd deep-reinforcement-learning/python
 pip install .
 ```
+
+
+Follow the instructions in Continuous_Control.ipynb to get started with training the agent! To use a Jupyter notebook, run the following command from the folder:
+```
+jupyter notebook
+```
